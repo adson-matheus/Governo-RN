@@ -1,0 +1,22 @@
+html{
+	font-family: sans-serif;
+}
+body {
+	padding: 10px;
+}
+#botao_senadores, #botao_governadores, #botao_inicio{
+	padding: 0px;
+}
+#enviar, #voltar{
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+}
+div.col-sm-12{
+	padding: 0px;
+}
+#portal{
+	display: inline-block;
+	position: relative;
+	padding-bottom: 10px;
+}

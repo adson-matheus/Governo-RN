@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Governo RN</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script type="text/javascript" src="{% static 'governantes/js/scripts.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href= "{% static '/governantes/css/style.css' %}">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4" id="botao_inicio" onclick="index()">
+				<button type="button" class="btn btn-light btn-lg btn-block"><span class="glyphicon glyphicon-home"></span> Home</button>
+			</div>
+			<div class="col-sm-4" id="botao_senadores" onclick="senadores()">
+				<button type="button" class="btn btn-light btn-lg btn-block">Senadores</button>
+			</div>
+			<div class="col-sm-4" id="botao_governadores" onclick="governadores()">
+				<button type="button" class="btn btn-light btn-lg btn-block">Governadores</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="portal">
+					<img src="{% static 'governantes/imgs/cabecalho.png' %}" class="img-fluid" alt="Governo RN">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3">
+				<button class="btn btn-primary" onclick="cadastrar_senador()">Cadastrar novo senador</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
