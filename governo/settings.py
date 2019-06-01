@@ -25,7 +25,7 @@ SECRET_KEY = '0hrsd9zz@pzwl2p$@kb$(y=z5jn)-m&#92h&$)k(@1+ht1=8ir'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.181', 'localhost',]
+ALLOWED_HOSTS = ['192.168.0.181', 'localhost', 'adson62.pythonanywhere.com']
 
 
 # Application definition
